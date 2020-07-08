@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  
+  section {
+    flex: 1;
+  }
+  
+  section > div {
+    flex: 1;
+    border-radius: 3em;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  section > div > ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  li {  
+    font-size: 25px;
+    padding-left: 15px;
+  }
+
+#guessButton,#reset {
+    padding: 10px 10px !important;
+}
